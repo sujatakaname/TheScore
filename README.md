@@ -4,8 +4,8 @@
 The League validation Regression suite primarily test that finds a League team within the Score application
 
 To run the suite:
-1. simply execute commmand: mvn test
-2. Can excute ScoreValidationBase.java class from eclipse
+1. Start the appium server(cmd:appium) and connect real time device
+2. simply execute commmand: "mvn test" from command prompt or Can run as testNG test for ScoreValidationBase.java class from eclipse
 
 
 ## Concepts Included
@@ -22,6 +22,7 @@ Flow mapping and defining
 1. Maven
 2. TestNG
 3. Appium
+4. GitHub
 
 
 ## Requirements
@@ -43,3 +44,10 @@ Flow mapping and defining
 ## Reporting
 
 Can get a testNG report of execution in test-output file from project location in eclipse
+## Test Approach
+
+1. Data driven approach
+2. Debugging and logging capabilities
+3. Extensible & Customizable
+4. Easy to understand and implement test cases according to Business Requirement
+5. Easy to input/modify required data
