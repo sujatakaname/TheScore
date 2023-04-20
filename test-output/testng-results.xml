@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-19T10:35:01 EDT" name="Default suite" finished-at="2023-04-19T10:35:36 EDT" duration-ms="34927">
+    <groups>
+    </groups>
+    <test started-at="2023-04-19T10:35:01 EDT" name="Default test" finished-at="2023-04-19T10:35:36 EDT" duration-ms="34927">
+      <class name="test.ScoreValidationBase">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.ScoreValidationBase@59505b48]" started-at="2023-04-19T10:35:01 EDT" name="setup" finished-at="2023-04-19T10:35:10 EDT" duration-ms="9534" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test(java.lang.String,java.lang.String)[pri:0, instance:test.ScoreValidationBase@59505b48]" started-at="2023-04-19T10:35:11 EDT" name="test" data-provider="testdata" finished-at="2023-04-19T10:35:35 EDT" duration-ms="24065" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[NHL Hockey]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Toronto Maple Leafs]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.ScoreValidationBase@59505b48]" started-at="2023-04-19T10:35:35 EDT" name="tearDown" finished-at="2023-04-19T10:35:36 EDT" duration-ms="526" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.ScoreValidationBase -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
